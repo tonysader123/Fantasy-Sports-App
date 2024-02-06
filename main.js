@@ -72,6 +72,7 @@ function getTeamRoster(team){
         //     playerList.push(new Player(element.firstName, element.lastName, element.id))
         // })
         
+        //create an array
         for (let i = 0; i< data.forwards.length; i++){
             playerList.push(new Player(data.forwards[i].firstName, data.forwards[i].lastName,data.forwards[i].id));
         }
